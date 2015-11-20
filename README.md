@@ -6,7 +6,7 @@ docker run -d -p 80:80 --name my_app_ruby sergiy/unic
 
 /etc/init/ruby.conf
 ```
-description "Nginx"
+description "ruby hello world"
 author "Me"
 start on filesystem and started docker
 stop on runlevel [!2345]
